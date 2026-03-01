@@ -1,7 +1,6 @@
 # Autonomous AI Rover
 
-<video src="assets/video.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
+<video src="https://github.com/HafthorArni/autonomous-AI-rover/raw/main/assets/video.mp4" controls="controls" style="max-width: 100%;">
 </video>
 
 An autonomous, AI-powered rover built with a Raspberry Pi. The rover utilizes a "Brain and Brawn" architecture: an external PC acts as the "brain" to process video streams through OpenAI's GPT-4o-mini Vision model to navigate, while audibly narrating what it sees using ElevenLabs TTS. The Raspberry Pi acts purely as the "body," streaming video and executing motor commands.
