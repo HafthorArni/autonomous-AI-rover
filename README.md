@@ -126,8 +126,8 @@ OPENAI_API_KEY=your_openai_api_key_here
 ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
 
 # Raspberry Pi Configuration
-RPI_IP=192.168.1.37
-RPI_USER=rover
+RPI_IP=your_RPI_IP
+RPI_USER=your_RPI_username
 RPI_PASSWORD=your_rpi_password
 
 ```
