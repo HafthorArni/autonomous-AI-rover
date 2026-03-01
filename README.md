@@ -37,7 +37,7 @@ autonomous-AI-rover/
 
 * **The Body:** Raspberry Pi (with Wi-Fi connection, running **Raspbian GNU/Linux 11 Bullseye**).
 * **Vision:** Arducam Pivariety Camera Module (or supported libcamera module).
-* **Mobility:** DC Motors in a differential drive setup. (I used the ch n20 3 dc motor)
+* **Mobility:** DC Motors in a differential drive setup. (I used the CH-N20-3 dc motor)
 * **Motor Driver:** e.g., L298N or TB6612FNG connected to Pi GPIO. (I used the Dual TB6612FNG (1A))
 * **Power:** a battery pack connected to a buck converter connected directly to the 5V input on the RPI
 * **The Brain:** A separate PC (Windows/Mac/Linux) to run the AI processing.
@@ -74,6 +74,9 @@ sudo reboot
 ```
 
 **Step 2: Camera Driver Installation**
+
+> **⚠️ Fair Warning:** Getting the camera to work can be a pain in the ass depending on the specific module you are using. The script and instructions below are tailored specifically for the **Arducam Pivariety**. If you are using a standard Raspberry Pi camera or a different third-party module, you will likely need to skip this script and hunt down the specific `libcamera` setup instructions for your exact model!
+
 The Arducam Pivariety camera requires a specific kernel driver installation script. Navigate to the camera directory and make the script executable:
 
 ```bash
