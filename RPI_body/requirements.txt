@@ -1,0 +1,5 @@
+RPi.GPIO==0.7.0
+picamera2==0.3.12
+v4l2-python3==0.3.2
+numpy==1.19.5
+gpiozero==1.6.2

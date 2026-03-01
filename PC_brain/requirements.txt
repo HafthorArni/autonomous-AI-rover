@@ -1,0 +1,6 @@
+openai
+elevenlabs
+pydub
+paramiko
+opencv-python
+python-dotenv
