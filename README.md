@@ -4,6 +4,10 @@ An external PC acts as the "brain" to process video streams through OpenAI's GPT
 
 > **Note:** It's been a while since I worked on this project. At the time, GPT-4o-mini was the best-performing model for this use case, but newer models will likely perform even better today!
 
+
+### 🤖 Rover in Action!
+*A quick demo of the rover navigating autonomously. (Originally posted on my [TikTok](https://www.tiktok.com/@hafthor.arni))*
+
 https://github.com/user-attachments/assets/e9924546-faa8-4ec5-9863-6f56c97cd00c
 
 
